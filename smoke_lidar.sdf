@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="smoke_lidar_world">
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-particle-emitter-system" name="gz::sim::systems::ParticleEmitter"/>
+
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient><diffuse>0.8 0.8 0.8 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="smoke_emitter">
+      <pose>2 0 0 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <particle_emitter name="emitter" type="box">
+          <emitting>true</emitting>
+          <size>2 2 0</size>
+          <particle_size>0.2 0.2 0.2</particle_size>
+          <lifetime>5</lifetime>
+          <min_velocity>0.5</min_velocity>
+          <max_velocity>1.5</max_velocity>
+          <scale_rate>0.5</scale_rate>
+          <rate>300</rate>
+          <particle_scatter_ratio>0.6</particle_scatter_ratio>
+          <material><ambient>0.5 0.5 0.5 1</ambient><diffuse>0.5 0.5 0.5 1</diffuse></material>
+        </particle_emitter>
+      </link>
+    </model>
+
+    <model name="lidar_model">
+      <pose>0 0 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="lidar_link">
+        <visual name="visual">
+          <geometry><box><size>0.2 0.2 0.2</size></box></geometry>
+          <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse></material>
+        </visual>
+        <sensor name='gpu_lidar' type='gpu_lidar'>
+          <topic>/lidar/points</topic>
+          <frame_id>lidar_link</frame_id>
+          <update_rate>10</update_rate>
+          <lidar>
+            <scan>
+              <horizontal>
+                <samples>100</samples>
+                <resolution>1</resolution>
+                <min_angle>-3.14159</min_angle>
+                <max_angle>3.14159</max_angle>
+              </horizontal>
+              <vertical>
+                <samples>4</samples>
+                <resolution>1</resolution>
+                <min_angle>-0.261799</min_angle>
+                <max_angle>0.261799</max_angle>
+              </vertical>
+            </scan>
+            <range>
+              <min>0.1</min>
+              <max>20.0</max>
+              <resolution>0.01</resolution>
+            </range>
+          </lidar>
+          <always_on>1</always_on>
+          <visualize>true</visualize>
+        </sensor>
+      </link>
+    </model>
+  </world>
+</sdf>
