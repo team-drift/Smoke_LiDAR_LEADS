@@ -19,7 +19,7 @@ smoke_demo/
 
 ## Launch Instructions
 
-Open **three separate terminals**.
+Open **three separate terminals**:
 
 ---
 
@@ -29,7 +29,7 @@ Open **three separate terminals**.
 ros2 launch ros_gz_sim gz_sim.launch.py gz_args:="-r smoke_lidar.sdf"
 ```
 
-The `lidar_model` should show up, then click on the 3 dots top right and search `Visualize Lidar`, then click the orange refresh button and blue lines should appear
+The `lidar_model` should show up. In the Gazebo UI, click the 3 dots (top right), search for `Visualize Lidar`, click the orange refresh button, and blue lines should appear.
 
 ---
 
@@ -41,24 +41,23 @@ rviz2
 
 RViz configurations:
 
-| Setting | Value |
-|---|---|
-| **Fixed Frame** | `lidar_model/lidar_link/gpu_lidar` |
-| **Add display** | `By topic` -> `PointCloud2` |
-| **Size (m)** | `0.5` (adjust as needed) |
-| **Reliability Policy** | Best Effort |
+| Setting            | Value                                      |
+|--------------------|--------------------------------------------|
+| **Fixed Frame**    | `lidar_model/lidar_link/gpu_lidar`         |
+| **Add display**    | `By topic` -> `PointCloud2`                |
+| **Size (m)**       | `0.5` (adjust as needed)                   |
+| **Reliability Policy** | Best Effort                         |
+
 ---
 
 ### Terminal 3 — ROS–Gazebo Bridge
 
 ```bash
-ros2 run ros_gz_bridge parameter_bridge   /lidar/points/points@sensor_msgs/msg/PointCloud2[gz.msgs.PointCloudPacked   --ros-args -r /lidar/points/points:=/lidar/point
-
 ros2 run ros_gz_bridge parameter_bridge \
   /lidar/points/points@sensor_msgs/msg/PointCloud2[gz.msgs.PointCloudPacked \
   --ros-args -r /lidar/points/points:=/lidar/points
 ```
 
-Second command is more reliable.
+This command bridges the Gazebo topic `/lidar/points/points` to the ROS topic `/lidar/points`.
 
 ---
