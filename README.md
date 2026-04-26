@@ -47,7 +47,7 @@ RViz configurations:
 | **Add display**    | `By topic` -> `PointCloud2`                |
 | **Add display**    | `By topic` -> `PointCloud2/lidar/points_attributed`|
 | **Channel Name**   | `smoke`                                |
-| **Size (m)**       | `0.5` (adjust as needed)                   |
+| **Size (m)**       | `0.5` or `0.1`                   |
 | **Reliability Policy** | Best Effort                         |
 
 ---
