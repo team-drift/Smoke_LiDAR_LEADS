@@ -45,6 +45,8 @@ RViz configurations:
 |--------------------|--------------------------------------------|
 | **Fixed Frame**    | `lidar_model/lidar_link/gpu_lidar`         |
 | **Add display**    | `By topic` -> `PointCloud2`                |
+| **Add display**    | `By topic` -> `PointCloud2/lidar/points_attributed`|
+| **Channel Name**   | `smoke`                                |
 | **Size (m)**       | `0.5` (adjust as needed)                   |
 | **Reliability Policy** | Best Effort                         |
 
@@ -59,5 +61,13 @@ ros2 run ros_gz_bridge parameter_bridge \
 ```
 
 This command bridges the Gazebo topic `/lidar/points/points` to the ROS topic `/lidar/points`.
+
+---
+
+### Terminal 4 — Smoke Attribution Node
+
+```bash
+python3 smoke_attribution_node.py
+```
 
 ---

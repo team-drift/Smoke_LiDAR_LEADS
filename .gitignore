@@ -6,6 +6,7 @@ __pycache__/
 
 .venv/
 env/
+plan.md
 
 .pytest_cache/
 .mypy_cache/
