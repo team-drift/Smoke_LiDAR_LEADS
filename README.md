@@ -71,3 +71,22 @@ python3 smoke_attribution_node.py
 ```
 
 ---
+
+### Terminal 5 — Visibility Scorer Node
+
+```bash
+python3 visibility_scorer.py
+```
+This node checks the LiDAR points hitting the target box, calculates if those specific rays passed through the smoke footprint, and outputs a live visibility classification (Visible, Partially Occluded, or Fully Occluded).
+
+---
+
+### Run the Entire Pipeline (One-Click)
+
+Instead of opening 5 different terminals, you can now run the entire pipeline with a single script! This will launch Gazebo, the ROS Bridge, RViz, the attribution node, and the visibility scorer all at once.
+
+```bash
+./run_pipeline.sh
+```
+
+To stop all nodes, press `Ctrl+C` in that terminal.

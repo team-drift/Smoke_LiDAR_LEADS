@@ -119,14 +119,7 @@ class LidarLogger(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = LidarLogger()
-    try:
-        rclpy.spin(node)
-    except KeyboardInterrupt:
-        pass
-    finally:
-        node.destroy_node()
-        if rclpy.ok():
-            rclpy.shutdown()
+    rclpy.spin(node)
 
 if __name__ == '__main__':
     main()

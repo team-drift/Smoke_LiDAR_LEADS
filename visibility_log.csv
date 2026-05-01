@@ -1,0 +1,181 @@
+Timestamp,Box_Name,Total_Points,Clear_Points,Through_Smoke_Points,Status
+1777598540.460317,Box_1_Outside,3,3,0,Clear
+1777598540.460317,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.460317,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.4617822,Box_1_Outside,3,3,0,Clear
+1777598540.4617822,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.4617822,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.463002,Box_1_Outside,3,3,0,Clear
+1777598540.463002,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.463002,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.4639158,Box_1_Outside,3,3,0,Clear
+1777598540.4639158,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.4639158,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.4646847,Box_1_Outside,3,3,0,Clear
+1777598540.4646847,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.4646847,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.4653633,Box_1_Outside,3,3,0,Clear
+1777598540.4653633,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.4653633,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.4660423,Box_1_Outside,3,3,0,Clear
+1777598540.4660423,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.4660423,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.4668152,Box_1_Outside,3,3,0,Clear
+1777598540.4668152,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.4668152,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.4674814,Box_1_Outside,3,3,0,Clear
+1777598540.4674814,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.4674814,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.4681776,Box_1_Outside,3,3,0,Clear
+1777598540.4681776,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.4681776,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.5260785,Box_1_Outside,3,3,0,Clear
+1777598540.5260785,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.5260785,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.5271535,Box_1_Outside,3,3,0,Clear
+1777598540.5271535,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.5271535,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.5605934,Box_1_Outside,3,3,0,Clear
+1777598540.5605934,Box_2_In_Smoke,7,0,7,Visible Through Smoke
+1777598540.5605934,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.5617468,Box_1_Outside,3,3,0,Clear
+1777598540.5617468,Box_2_In_Smoke,7,0,7,Visible Through Smoke
+1777598540.5617468,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.5717301,Box_1_Outside,3,3,0,Clear
+1777598540.5717301,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.5717301,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.5724177,Box_1_Outside,3,3,0,Clear
+1777598540.5724177,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.5724177,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.572883,Box_1_Outside,3,3,0,Clear
+1777598540.572883,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.572883,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.5734177,Box_1_Outside,3,3,0,Clear
+1777598540.5734177,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.5734177,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.5739155,Box_1_Outside,3,3,0,Clear
+1777598540.5739155,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.5739155,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.5745008,Box_1_Outside,3,3,0,Clear
+1777598540.5745008,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.5745008,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.5750334,Box_1_Outside,3,3,0,Clear
+1777598540.5750334,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.5750334,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.5756145,Box_1_Outside,3,3,0,Clear
+1777598540.5756145,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.5756145,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.5761755,Box_1_Outside,3,3,0,Clear
+1777598540.5761755,Box_2_In_Smoke,7,0,7,Visible Through Smoke
+1777598540.5761755,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.5766175,Box_1_Outside,3,3,0,Clear
+1777598540.5766175,Box_2_In_Smoke,7,0,7,Visible Through Smoke
+1777598540.5766175,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.6258748,Box_1_Outside,3,3,0,Clear
+1777598540.6258748,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.6258748,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.626738,Box_1_Outside,3,3,0,Clear
+1777598540.626738,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.626738,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.6272466,Box_1_Outside,3,3,0,Clear
+1777598540.6272466,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.6272466,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.6279163,Box_1_Outside,3,3,0,Clear
+1777598540.6279163,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.6279163,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.6618817,Box_1_Outside,3,3,0,Clear
+1777598540.6618817,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.6618817,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.6628456,Box_1_Outside,3,3,0,Clear
+1777598540.6628456,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.6628456,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.6633554,Box_1_Outside,3,3,0,Clear
+1777598540.6633554,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.6633554,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.663825,Box_1_Outside,3,3,0,Clear
+1777598540.663825,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.663825,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.7311969,Box_1_Outside,3,3,0,Clear
+1777598540.7311969,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.7311969,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.732078,Box_1_Outside,3,3,0,Clear
+1777598540.732078,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.732078,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.732808,Box_1_Outside,3,3,0,Clear
+1777598540.732808,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.732808,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.7335584,Box_1_Outside,3,3,0,Clear
+1777598540.7335584,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598540.7335584,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.7673137,Box_1_Outside,3,3,0,Clear
+1777598540.7673137,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.7673137,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.7681878,Box_1_Outside,3,3,0,Clear
+1777598540.7681878,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.7681878,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.7687933,Box_1_Outside,3,3,0,Clear
+1777598540.7687933,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.7687933,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.7693937,Box_1_Outside,3,3,0,Clear
+1777598540.7693937,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.7693937,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598540.840544,Box_1_Outside,3,3,0,Clear
+1777598540.840544,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.840544,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.8417723,Box_1_Outside,3,3,0,Clear
+1777598540.8417723,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.8417723,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.842664,Box_1_Outside,3,3,0,Clear
+1777598540.842664,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.842664,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.8455312,Box_1_Outside,3,3,0,Clear
+1777598540.8455312,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.8455312,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.8814898,Box_1_Outside,3,3,0,Clear
+1777598540.8814898,Box_2_In_Smoke,7,0,7,Visible Through Smoke
+1777598540.8814898,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.88241,Box_1_Outside,3,3,0,Clear
+1777598540.88241,Box_2_In_Smoke,7,0,7,Visible Through Smoke
+1777598540.88241,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.8829823,Box_1_Outside,3,3,0,Clear
+1777598540.8829823,Box_2_In_Smoke,7,0,7,Visible Through Smoke
+1777598540.8829823,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.8837092,Box_1_Outside,3,3,0,Clear
+1777598540.8837092,Box_2_In_Smoke,7,0,7,Visible Through Smoke
+1777598540.8837092,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.936714,Box_1_Outside,3,3,0,Clear
+1777598540.936714,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.936714,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.937452,Box_1_Outside,3,3,0,Clear
+1777598540.937452,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.937452,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.937932,Box_1_Outside,3,3,0,Clear
+1777598540.937932,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.937932,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.938537,Box_1_Outside,3,3,0,Clear
+1777598540.938537,Box_2_In_Smoke,3,0,3,Visible Through Smoke
+1777598540.938537,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.9719882,Box_1_Outside,3,3,0,Clear
+1777598540.9719882,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.9719882,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.9727304,Box_1_Outside,3,3,0,Clear
+1777598540.9727304,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.9727304,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.97346,Box_1_Outside,3,3,0,Clear
+1777598540.97346,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.97346,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598540.9741724,Box_1_Outside,3,3,0,Clear
+1777598540.9741724,Box_2_In_Smoke,8,0,8,Visible Through Smoke
+1777598540.9741724,Box_3_Behind_Box_2,1,0,1,Visible Through Smoke
+1777598541.036579,Box_1_Outside,3,3,0,Clear
+1777598541.036579,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598541.036579,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598541.0375228,Box_1_Outside,3,3,0,Clear
+1777598541.0375228,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598541.0375228,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598541.0382555,Box_1_Outside,3,3,0,Clear
+1777598541.0382555,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598541.0382555,Box_3_Behind_Box_2,0,0,0,Not Detected
+1777598541.038816,Box_1_Outside,3,3,0,Clear
+1777598541.038816,Box_2_In_Smoke,4,0,4,Visible Through Smoke
+1777598541.038816,Box_3_Behind_Box_2,0,0,0,Not Detected

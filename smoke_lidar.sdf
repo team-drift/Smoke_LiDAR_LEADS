@@ -91,17 +91,28 @@
         </sensor>
       </link>
     </model>
-    <model name="target_box">
+    <model name="box_1_outside">
+      <pose>4 5 0.2 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>1 1 3</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>1 1 3</size></box></geometry><material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material></visual>
+      </link>
+    </model>
+    <model name="box_2_in_smoke">
       <pose>4 0 0.5 0 0 0</pose>
       <static>true</static>
       <link name="link">
-        <collision name="collision">
-          <geometry><box><size>1 1 1</size></box></geometry>
-        </collision>
-        <visual name="visual">
-          <geometry><box><size>1 1 1</size></box></geometry>
-          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
-        </visual>
+        <collision name="collision"><geometry><box><size>1 1 3</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>1 1 3</size></box></geometry><material><ambient>1 1 0 1</ambient><diffuse>1 1 0 1</diffuse></material></visual>
+      </link>
+    </model>
+    <model name="box_3_behind">
+      <pose>6 0.75 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>1 1 3</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>1 1 3</size></box></geometry><material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse></material></visual>
       </link>
     </model>
   </world>

@@ -14,3 +14,7 @@ plan.md
 .vscode/
 .idea/
 .DS_Store
+attribution.log
+bridge.log
+gazebo.log
+rviz.log
