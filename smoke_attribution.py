@@ -55,7 +55,7 @@ def plot_attribution(points, out_csv_path: str) -> None:
     ax.set_xlabel("X (m)")
     ax.set_ylabel("Y (m)")
     ax.set_zlabel("Z (m)")
-    ax.set_title(os.path.basename(out_csv_path))
+    ax.set_title("LiDAR Smoke Attribution Validation\nClear vs Smoke-Labeled Points")
     ax.legend(loc="upper right")
     fig.savefig(out_png_path, dpi=150)
     plt.close(fig)
